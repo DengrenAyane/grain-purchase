@@ -70,7 +70,7 @@ li.catg:hover a, li.area:hover > div { box-shadow: 0px 0px 7px rgba(23, 190, 160
 aside { width: 140px; position: absolute; top: 170px; right: 20px; }
 .release-button { display: block; width: 100%; height: 52px; background-image: url('../imgs/release-button-2.png'); text-indent: -9999em; }
 .release-button:hover { background-image: url('../imgs/release-button-1.png'); }
-.helped { width: 146px; height: 166px; margin: 30px 0px 0px -3px; background-image: url('../imgs/helped.png'); background-repeat: no-repeat; text-align: center; }
+.helped { width: 146px; height: 166px; margin: 30px 0px 0px -3px;  background-repeat: no-repeat; text-align: center; }
 .helpers { color: rgb(0, 173, 144); font-family: impact; font-size: 3.17em; line-height: 155px; vertical-align: middle; }
 .qrcode-wr { width: 148px; margin: 30px 0px 0px -3px; }
 .qrcode-wr img { width: 100%; height: auto; }
@@ -100,7 +100,7 @@ aside { width: 140px; position: absolute; top: 170px; right: 20px; }
 .login-header, .reg-header { width: 100%; padding: 30px 0px; margin: 0px auto; background-color: rgb(63, 73, 91); }
 .reg-header { padding-bottom: 40px; }
 .login-logo { display: block; width: 80px; height: 80px; margin: 0px auto; }
-p.site-name { width: 110px; height: 21px; margin: 17px auto 0px; background: transparent url('../imgs/lr.png') no-repeat scroll 0px -120px; text-indent: -9999em; }
+p.site-name { width: 110px; height: 21px; margin: 17px auto 0px; background: transparent  no-repeat scroll 0px -120px; text-indent: -9999em; }
 .share-buttons { width: 300px; height: 42px; margin: 35px auto 0px; background: transparent url('../imgs/co-login.png') no-repeat scroll 0% 0%; text-indent: -9999em; cursor: pointer; }
 #renren-button, #qq-button { height: 100%; width: 140px; }
 #renren-button { float: left; }
@@ -118,8 +118,8 @@ p.ex { width: 270px; margin: 20px auto 0px; }
 a.forget { float: right; vertical-align: bottom; text-decoration: none; }
 a.forget:hover { color: rgb(255, 197, 0); }
 .login-form-container .submit, .reg-form-container .submit { display: block; width: 268px; height: 50px; margin: 40px auto 0px; border-radius: 25px; text-indent: -9999em; cursor: pointer; }
-.login-form-container .submit { background: transparent url('../imgs/lr.png') no-repeat scroll 0px 0px; }
-.reg-form-container .submit { background: transparent url('../imgs/lr.png') no-repeat scroll 0px -151px; }
+.login-form-container .submit {  }
+.reg-form-container .submit {  }
 .login-form-container .reg, .reg-form-container .log { display: inline-block; margin: 15px 43% 0px; color: rgb(255, 255, 255); font-size: 1.17em; text-decoration: none; }
 .login-form-container .reg:hover, .reg-form-container .log:hover { text-decoration: underline; }
 #have_login { height: 50px; }
